@@ -3,7 +3,7 @@ package com.adhyan;
 /** 
  * @author Adhyan Chandhoke
  * @date 08/06/2024
- *  * A program to compute the roots and vertex of a quadratic equation in the form ax^2 + bx + c. It takes coefficients a, b, and c as input from the user.
+ * A program to compute the roots and vertex of a quadratic equation in the form ax^2 + bx + c. It takes coefficients a, b, and c as input from the user.
  */
 
 import java.util.*;
