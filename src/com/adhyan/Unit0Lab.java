@@ -64,6 +64,7 @@ public class Unit0Lab {
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return A String representing the quadratic equation in standard form.
      */
+    
     public static String quadToString(double[] coeffs) {
         String signB = coeffs[1] >= 0 ? " + " : " - ";
         String signC = coeffs[2] >= 0 ? " + " : " - ";
@@ -77,6 +78,7 @@ public class Unit0Lab {
      * @param x The value at which to evaluate the function.
      * @return The value of the quadratic function at x.
      */
+    
     public static double f(double[] coeffs, double x) {
         return coeffs[0] * x * x + coeffs[1] * x + coeffs[2];
     }
@@ -87,6 +89,7 @@ public class Unit0Lab {
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return An array of doubles containing the roots of the equation if they are real, null if the roots are complex.
      */
+    
     public static double[] calculateRoots(double[] coeffs) {
         double discriminant = coeffs[1] * coeffs[1] - 4 * coeffs[0] * coeffs[2];
         if (discriminant < 0) {
@@ -104,6 +107,7 @@ public class Unit0Lab {
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return The x-coordinate of the vertex.
      */
+    
     public static double calculateVertexX(double[] coeffs) {
         return -coeffs[1] / (2 * coeffs[0]);
     }
