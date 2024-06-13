@@ -60,7 +60,6 @@ public class Unit0Lab {
 
     /**
      * Converts the quadratic equation coefficients into a readable string format.
-     * 
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return A String representing the quadratic equation in standard form.
      */
@@ -85,7 +84,6 @@ public class Unit0Lab {
 
     /**
      * Calculates the roots of the quadratic equation ax^2 + bx + c.
-     * 
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return An array of doubles containing the roots of the equation if they are real, null if the roots are complex.
      */
@@ -103,7 +101,6 @@ public class Unit0Lab {
 
     /**
      * Calculates the x-coordinate of the vertex of the quadratic equation ax^2 + bx + c.
-     * 
      * @param coeffs An array of doubles representing the coefficients a, b, and c.
      * @return The x-coordinate of the vertex.
      */
